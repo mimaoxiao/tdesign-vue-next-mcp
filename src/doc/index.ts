@@ -2,7 +2,6 @@ import { execSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { getFoldersSync } from '../utils/util';
-import { ComponentData } from '../utils/type';
 
 function getCode() {
   try {
@@ -19,12 +18,34 @@ function getComponentProps() {
   const componentPath = 'packages/components';
   const componentList = getFoldersSync(path.join(tdesignPath, componentPath));
 
-  const docList: ComponentData[] = [];
+  const docList: { name: string; propsData: string | { type: string, props: string }[] }[] = [];
   
   componentList.forEach((name) => {
     try {
       const props = fs.readFileSync(path.join(tdesignPath, componentPath, name, `${name}.md`), 'utf-8');
-      docList.push({ name, propsData: props });
+      if (name === 'table') {
+        const list: { type: string; props: string }[] = [];
+        
+        let primaryProps = props;
+        primaryProps = primaryProps.replace(/### EnhancedTable Props\n\n[\s\S]*?\n\n/, '');
+        primaryProps = primaryProps.replace(/### EnhancedTable Events\n\n[\s\S]*?\n\n/, '');
+        primaryProps = primaryProps.replace(/### EnhancedTableInstanceFunctions 组件实例方法\n\n[\s\S]*?\n\n/, '');
+
+        list.push({
+          type: 'PrimaryTable',
+          props: primaryProps,
+        });
+        list.push({
+          type: 'EnhancedTable',
+          props: props,
+        });
+        docList.push({
+          name,
+          propsData: list,
+        });
+      } else {
+        docList.push({ name, propsData: props });
+      }
     } catch (e) {
       console.log(`读取 ${name} 组件 md 文件失败: ${e}`);
     }
@@ -48,7 +69,6 @@ function getComponentExample() {
         expPath = path.join(tdesignPath, componentPath, name, '_example-ts');
       } else if (fs.existsSync(path.join(tdesignPath, componentPath, name, '_example'))) {
         expPath = path.join(tdesignPath, componentPath, name, '_example');
-        console.log('meowname', name);
       } else {
         throw new Error(`${name} 示例文件不存在`);
       }
@@ -71,7 +91,7 @@ function main() {
   if (!getCode()) {
     return; 
   }
-
+  
   fs.rmSync('./document', { recursive: true, force: true });
   fs.mkdirSync('./document');
   fs.copyFileSync('./componentList.json', './document/componentList.json');

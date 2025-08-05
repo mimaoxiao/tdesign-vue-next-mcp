@@ -24,6 +24,7 @@ const registryTool = (server: McpServer) => {
   server.tool(
     "get-component-demo",
     `获取 TDesign 指定组件的指定demo的代码
+    在此之前你应该已经调用过select-component-demo工具获取路径列表了，确保输入的demoPath与路径列表内的路径完全一致，不要做任何改动，直接输入完整路径，不要只输入文件名
       适用场景：
       1. 用户需要查看该组件的指定demo代码`,
     { componentName: z.string(), demoPath: z.string() },
@@ -33,8 +34,7 @@ const registryTool = (server: McpServer) => {
         content: [
           {
             type: "text",
-            text: `${componentName} 组件的demo示例：
-${file}`,
+            text: `${componentName} 组件的demo示例：${file}`,
           },
         ],
       };

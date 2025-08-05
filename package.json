@@ -1,8 +1,9 @@
 {
   "name": "tdesign-vue-next-mcp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "bin": "dist/index.js",
+  "files": ["document/*", "dist/*"],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

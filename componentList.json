@@ -1,0 +1,2194 @@
+[
+  {
+    "name": "affix",
+    "desc": "在指定的范围内，将元素固定不动",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/affix/container.vue",
+        "desc": "设置定位层级，指定滚动容器，并监听固定状态变化。"
+      }
+    ]
+  },
+  {
+    "name": "alert",
+    "desc": "警告条用于承载需要用户注意的信息。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/alert/base.vue",
+        "desc": "展示不同主题的消息提示，支持通过属性或插槽传递内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/alert/close.vue",
+        "desc": "自定义关闭按钮，支持关闭事件和关闭动画结束事件。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/alert/icon.vue",
+        "desc": "自定义图标，支持通过属性或插槽定义图标。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/alert/operation.vue",
+        "desc": "在消息提示后添加操作区，支持自定义操作按钮。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/alert/title.vue",
+        "desc": "添加标题，与消息内容配合使用。"
+      }
+    ]
+  },
+  {
+    "name": "anchor",
+    "desc": "页面内的超级链接，用于跳转到页面内指定位置",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/base.vue",
+        "desc": "创建基础锚点导航，支持多级锚点链接和固定位置。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/container.vue",
+        "desc": "指定滚动容器，并监听锚点点击事件。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/cursor.vue",
+        "desc": "自定义选中项左侧游标，设置锚点区域边界。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/custom-scroll.vue",
+        "desc": "禁用默认平滑滚动动画，支持自定义滚动效果。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/large.vue",
+        "desc": "设置大尺寸锚点导航。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/small.vue",
+        "desc": "设置小尺寸锚点导航。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/multiple.vue",
+        "desc": "支持多级锚点嵌套，设置锚点区域边界和滚动偏移量。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/anchor/target.vue",
+        "desc": "定义锚点目标区域。"
+      }
+    ]
+  },
+  {
+    "name": "autocomplete",
+    "desc": "用于根据用户输入内容提示更多联想词场景",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/base.vue",
+        "desc": "基础搜索联想功能，支持高亮关键词和清空功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/filter.vue",
+        "desc": "支持默认和自定义过滤规则。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/option.vue",
+        "desc": "支持通过属性或插槽自定义选项内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/size.vue",
+        "desc": "支持设置小、中、大三种尺寸。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/status.vue",
+        "desc": "支持禁用、只读、告警、错误和成功等状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/autocomplete/trigger-element.vue",
+        "desc": "支持自定义触发元素和调整下拉浮层触发方式。"
+      }
+    ]
+  },
+  {
+    "name": "avatar",
+    "desc": "用图标、图片、字符的形式展示用户或事物信息",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/avatar/base.vue",
+        "desc": "支持图标、图片和文字三种基础头像类型。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/avatar/group.vue",
+        "desc": "支持头像组功能，可统一设置组内头像尺寸。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/avatar/group-cascading.vue",
+        "desc": "支持设置头像组内图片的层叠关系。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/avatar/group-max.vue",
+        "desc": "支持限制显示的头像数量并自定义折叠元素。"
+      }
+    ]
+  },
+  {
+    "name": "badge",
+    "desc": "出现在图标或文字右上角的徽标标识。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/badge/base.vue",
+        "desc": "支持红点徽标、数字徽标和自定义内容。"
+      }
+    ]
+  },
+  {
+    "name": "breadcrumb",
+    "desc": "显示当前页面在系统层级结构的位置，并能返回之前任意层级的页面。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/breadcrumb/href.vue",
+        "desc": "支持路由跳转、外部链接跳转、禁用项、自定义点击事件、覆盖路由和新窗口打开。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/breadcrumb/options.vue",
+        "desc": "支持通过options属性配置面包屑项。"
+      }
+    ]
+  },
+  {
+    "name": "button",
+    "desc": "按钮用于开启一个闭环的操作任务，如“删除”对象、“购买”商品等。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/button/base.vue",
+        "desc": "支持四种基础变体（填充、描边、虚框、文字）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/block.vue",
+        "desc": "支持块级元素显示。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/custom-element.vue",
+        "desc": "支持自定义渲染标签（div、a等）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/ghost.vue",
+        "desc": "支持幽灵按钮效果。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/group.vue",
+        "desc": "支持按钮组布局。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/icon.vue",
+        "desc": "支持图标按钮。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/loading.vue",
+        "desc": "支持加载状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/shape.vue",
+        "desc": "支持四种形状（长方形、正方形、圆角长方形、圆形）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/size.vue",
+        "desc": "支持三种尺寸（小、中、大）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/status.vue",
+        "desc": "支持禁用和加载状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/button/theme.vue",
+        "desc": "支持五种主题风格（默认、品牌色、危险色、警告色、成功色）。"
+      }
+    ]
+  },
+  {
+    "name": "calendar",
+    "desc": "按照日历形式展示数据或日期的容器。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/card-cell.vue",
+        "desc": "支持主题风格切换、自定义单元格内容和右击事件。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/card.vue",
+        "desc": "支持主题风格切换、日期补零显示、显示周末和跳转到当前日期。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/cell-append.vue",
+        "desc": "支持单元格追加内容和根据展示维度显示不同内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/cell.vue",
+        "desc": "支持完全自定义单元格内容和事件标记。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/controller-config.vue",
+        "desc": "支持控制器全局配置和局部控件配置。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/events.vue",
+        "desc": "支持单元格点击、双击、右击事件，以及月份切换和控制器变化事件。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/first-day-of-week.vue",
+        "desc": "支持自定义每周的第一天。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/mode.vue",
+        "desc": "支持展示维度切换（日历和月历）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/range.vue",
+        "desc": "支持日期范围限制。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/slot-props-api.vue",
+        "desc": "支持头部和单元格插槽自定义及事件标记。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/value.vue",
+        "desc": "支持指定高亮日期和多选高亮日期。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/calendar/week.vue",
+        "desc": "支持自定义星期显示。"
+      }
+    ]
+  },
+  {
+    "name": "card",
+    "desc": "最基础的卡片容器，可承载文字、列表、图片、段落，常用于后台概览页面。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/card/base.vue",
+        "desc": "基本卡片，包含标题和操作区"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/bordered.vue",
+        "desc": "设置卡片边框"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/bordered-none.vue",
+        "desc": "设置卡片无边框"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/custom-loading-props.vue",
+        "desc": "自定义加载状态和加载提示文本"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/footer-actions.vue",
+        "desc": "底部操作区和自定义操作按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/footer-content-actions.vue",
+        "desc": "底部内容和操作按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/footer-content.vue",
+        "desc": "自定义底部内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/footer.vue",
+        "desc": "自定义底部操作区"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header-all-props.vue",
+        "desc": "设置标题、副标题和描述"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header-bordered.vue",
+        "desc": "设置头部带分割线"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header-description.vue",
+        "desc": "设置卡片描述文案"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header-subtitle-footer-actions.vue",
+        "desc": "设置副标题、底部内容和操作按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header-subtitle.vue",
+        "desc": "设置卡片副标题"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/header.vue",
+        "desc": "设置卡片标题和操作区"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/hover.vue",
+        "desc": "设置鼠标悬停时显示阴影"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/card/small.vue",
+        "desc": "设置卡片为小尺寸"
+      }
+    ]
+  },
+  {
+    "name": "cascader",
+    "desc": "级联选择器适用于有清晰层级结构的数据集合，用户可以通过逐级查看并选择。一般而言，级联选择器包括：选择器和级联。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/base.vue",
+        "desc": "基本级联选择器，包含options、v-model和事件回调"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/check-strictly.vue",
+        "desc": "设置父子节点选中状态不关联"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/multiple.vue",
+        "desc": "设置多选模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/filterable.vue",
+        "desc": "设置可搜索功能，支持自定义过滤方法"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/value-mode.vue",
+        "desc": "设置选中值模式(onlyLeaf/parentFirst/all)"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/cascader/value-type.vue",
+        "desc": "设置输入输出值为全路径(full)"
+      }
+    ]
+  },
+  {
+    "name": "checkbox",
+    "desc": "多选框是一个选择控件，允许用户通过单击在选中和未选中之间切换。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/checkbox/controlled.vue",
+        "desc": "展示受控模式(v-model/checked/defaultChecked)"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/checkbox/group.vue",
+        "desc": "展示分组功能，包括全选、半选状态和懒加载"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/checkbox/link.vue",
+        "desc": "展示链接样式选项"
+      }
+    ]
+  },
+  {
+    "name": "collapse",
+    "desc": "可以将较多或较复杂的内容进行分组，分组内容区可以折叠展开或隐藏。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/collapse/base.vue",
+        "desc": "基本功能，包括默认展开项和嵌套面板"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/collapse/icon.vue",
+        "desc": "自定义展开图标和位置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/collapse/mutex.vue",
+        "desc": "互斥展开功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/collapse/rightSlot.vue",
+        "desc": "右侧操作区域插槽"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/collapse/other.vue",
+        "desc": "无边框模式、禁用状态和动态控制"
+      }
+    ]
+  },
+  {
+    "name": "color-picker",
+    "desc": "用于颜色选择，支持多种格式。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/color-mode.vue",
+        "desc": "设置颜色模式（单色/渐变）"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/enable-alpha.vue",
+        "desc": "开启透明度控制"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/panel.vue",
+        "desc": "面板功能（单色/渐变）及事件回调"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/recent-color.vue",
+        "desc": "设置最近使用颜色"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/status-disabled.vue",
+        "desc": "设置禁用状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/status-readonly.vue",
+        "desc": "设置只读状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/swatch-color.vue",
+        "desc": "设置预设系统颜色"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/color-picker/trigger.vue",
+        "desc": "设置触发方式和预览区域"
+      }
+    ]
+  },
+  {
+    "name": "comment",
+    "desc": "评论用于对页面内容的反馈、评价、讨论等，如对文章的评价，对话题的讨论等。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/comment/reply-form.vue",
+        "desc": "设置头像，自定义评论内容区域（包含文本输入框和回复按钮）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/comment/list.vue",
+        "desc": "设置头像、作者、时间和评论内容，自定义操作区域（包含点赞和回复按钮）。"
+      }
+    ]
+  },
+  {
+    "name": "date-picker",
+    "desc": "用于选择某一具体日期或某一段日期区间。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/base.vue",
+        "desc": "基础功能，支持v-model绑定、清除功能、允许输入"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/cancel-range-limit.vue",
+        "desc": "取消日期范围选择的限制"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/custom-icon.vue",
+        "desc": "自定义前缀和后缀图标"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/date-presets-alt.vue",
+        "desc": "预设快捷日期选择，支持时间选择器"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/date-range.vue",
+        "desc": "日期范围选择，支持时间选择器和事件监听"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/disable-date.vue",
+        "desc": "禁用特定日期或日期范围"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/first-day-of-week.vue",
+        "desc": "设置一周的第一天"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/multiple.vue",
+        "desc": "支持多选日期，支持不同模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/panel.vue",
+        "desc": "面板模式，支持时间选择器和事件监听"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/date-picker/week.vue",
+        "desc": "周模式，支持清除和输入"
+      }
+    ]
+  },
+  {
+    "name": "descriptions",
+    "desc": "一般用于详情页的信息展示。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/descriptions/colon.vue",
+        "desc": "动态控制字段名右侧是否携带冒号，设置边框和列数"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/descriptions/column.vue",
+        "desc": "动态设置一行DescriptionsItem的数量，设置边框"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/descriptions/items.vue",
+        "desc": "使用items属性动态配置描述项，支持自定义渲染"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/descriptions/layout.vue",
+        "desc": "动态设置整体和描述项的排列方向，设置描述项宽度"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/descriptions/size.vue",
+        "desc": "动态设置组件尺寸，设置边框和列数"
+      }
+    ]
+  },
+  {
+    "name": "dialog",
+    "desc": "对话框是一种临时窗口，通常在不想中断整体任务流程，但又需要为用户展示信息或获得用户响应时，在页面中打开一个对话框承载相应的信息及操作。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/base.vue",
+        "desc": "基础对话框显示控制，设置标题、宽度和事件回调"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/attach.vue",
+        "desc": "挂载节点配置，支持body/特定元素/函数返回节点"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/drag.vue",
+        "desc": "拖拽功能，支持非模态对话框"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/icon.vue",
+        "desc": "主题风格配置（info/warning/danger/success）"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/modal.vue",
+        "desc": "模式配置（normal/modeless/modal）"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/position.vue",
+        "desc": "位置配置（top/center）和自定义顶部距离"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dialog/warning.vue",
+        "desc": "主题风格配置和自定义图标"
+      }
+    ]
+  },
+  {
+    "name": "drawer",
+    "desc": "抽屉常通过单击临近的按钮控件打开，从屏幕边缘滑入的浮层面板，又称半屏弹窗。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/base.vue",
+        "desc": "基础抽屉显示控制，设置标题和关闭按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/attach-parent.vue",
+        "desc": "在父元素中显示，动态设置弹出方向和模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/custom.vue",
+        "desc": "自定义头部和底部，单独设置确认/取消按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/destroy.vue",
+        "desc": "关闭时销毁节点"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/no-mask.vue",
+        "desc": "隐藏遮罩层"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/operation.vue",
+        "desc": "表单操作场景"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/placement.vue",
+        "desc": "动态设置弹出方向（left/right/top/bottom）"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/size-draggable.vue",
+        "desc": "尺寸可拖拽调整"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/drawer/size.vue",
+        "desc": "动态设置抽屉尺寸（small/medium/large/自定义）"
+      }
+    ]
+  },
+  {
+    "name": "dropdown",
+    "desc": "用于承载过多的操作集合，通过下拉拓展的形式，收纳更多的操作。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/base.vue",
+        "desc": "基础下拉菜单配置，点击触发方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/button.vue",
+        "desc": "按钮式触发"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/custom.vue",
+        "desc": "多级菜单配置，点击后不自动隐藏"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/disabled.vue",
+        "desc": "禁用菜单项，最小列宽设置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/event.vue",
+        "desc": "单个菜单项点击事件"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/icon.vue",
+        "desc": "菜单项前缀图标"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/left.vue",
+        "desc": "子菜单向左展开"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/long.vue",
+        "desc": "长列表菜单，最大高度设置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/multiple.vue",
+        "desc": "复杂多级菜单配置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/slot.vue",
+        "desc": "使用插槽自定义菜单"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/split.vue",
+        "desc": "分隔线菜单项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/dropdown/theme.vue",
+        "desc": "主题设置"
+      }
+    ]
+  },
+  {
+    "name": "empty",
+    "desc": "用于空状态时的占位提示。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/base.vue",
+        "desc": "基础空状态展示"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/descriptions.vue",
+        "desc": "自定义标题和描述文字"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/operation.vue",
+        "desc": "自定义操作按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/self-defined.vue",
+        "desc": "自定义图片内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/size.vue",
+        "desc": "尺寸设置和类型设置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/empty/status.vue",
+        "desc": "展示不同状态的空状态"
+      }
+    ]
+  },
+  {
+    "name": "form",
+    "desc": "用以收集、校验和提交数据，一般由输入框、单选框、复选框、选择器等控件组成。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/form/align.vue",
+        "desc": "设置表单标签对齐方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/base.vue",
+        "desc": "表单校验规则，数据绑定，重置和提交事件，实例方法"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/clear-validate.vue",
+        "desc": "清除表单校验结果"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/custom-validator.vue",
+        "desc": "自定义校验规则"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/disabled.vue",
+        "desc": "控制表单禁用状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/error-message.vue",
+        "desc": "自定义校验错误信息"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/layout.vue",
+        "desc": "设置表单布局方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/login.vue",
+        "desc": "基本表单功能实现"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/reset.vue",
+        "desc": "重置表单数据"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/size.vue",
+        "desc": "控制表单尺寸"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/validate-complicated-data.vue",
+        "desc": "对复杂数据结构（数组嵌套）的校验"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/validate-message.vue",
+        "desc": "设置校验信息提示"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/validator-status.vue",
+        "desc": "控制校验状态图标的显示"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/form/validator.vue",
+        "desc": "展示各种校验规则和触发方式"
+      }
+    ]
+  },
+  {
+    "name": "grid",
+    "desc": "栅格是以规则的网格阵列来指导和规范网页中的版面布局以及信息分布，提高界面内布局的一致性，节约成本。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/grid/base.vue",
+        "desc": "使用t-row和t-col组件，通过span属性定义栅格占位格数。"
+      }
+    ]
+  },
+  {
+    "name": "image",
+    "desc": "用于展示图片素材。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/image/extra-always.vue",
+        "desc": "通过插槽和函数渲染浮层内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/extra-hover.vue",
+        "desc": "浮层内容在悬停时显示。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/fill-mode.vue",
+        "desc": "展示不同的图片填充模式。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/gallery-cover.vue",
+        "desc": "展示图集样式，添加标签浮层。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/lazy-list.vue",
+        "desc": "实现图片的懒加载功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/lazy-single.vue",
+        "desc": "实现单张图片的懒加载功能，并自定义占位符和加载状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image/placeholder.vue",
+        "desc": "自定义加载中和加载失败时的占位符和错误提示。"
+      }
+    ]
+  },
+  {
+    "name": "image-viewer",
+    "desc": "当需要展示图片，并要进行部分操作时。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/album.vue",
+        "desc": "自定义触发预览的元素。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/albumIcons.vue",
+        "desc": "实现多图片切换功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/base.vue",
+        "desc": "自定义触发预览的元素。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/block.vue",
+        "desc": "自定义触发预览的元素。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/button.vue",
+        "desc": "自定义触发预览的按钮。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/error.vue",
+        "desc": "处理图片加载失败的情况。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/modeless.vue",
+        "desc": "实现无模态窗口的图片预览功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/multiple.vue",
+        "desc": "实现多图片预览功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/svg.vue",
+        "desc": "支持SVG图片的预览。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/image-viewer/placeholder.vue",
+        "desc": "自定义加载中和加载失败时的占位符和错误提示。"
+      }
+    ]
+  },
+  {
+    "name": "input",
+    "desc": "用于承载用户信息录入的文本框，常用于表单、对话框等场景，对不同内容的信息录入，可拓展形成多种信息录入形式。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/input/base.vue",
+        "desc": "展示基础用法，包括默认值、事件绑定和插槽功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/clearable.vue",
+        "desc": "展示可清空功能和清空事件处理。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/focus.vue",
+        "desc": "展示聚焦事件处理功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/format.vue",
+        "desc": "展示格式化输入和验证反馈功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/max-length-count.vue",
+        "desc": "展示字数限制功能，包括内置和自定义字数统计。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/password.vue",
+        "desc": "展示密码输入功能和前缀图标使用。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input/textarea.vue",
+        "desc": "展示多行文本输入功能。"
+      }
+    ]
+  },
+  {
+    "name": "input-adornment",
+    "desc": "用于装饰输入类组件的装饰器",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/input-adornment/select.vue",
+        "desc": "展示前缀和后缀装饰功能，扩展输入框。"
+      }
+    ]
+  },
+  {
+    "name": "input-number",
+    "desc": "数字输入框由增加、减少按钮、数值输入组成。每次点击增加按钮（或减少按钮），数字增长（或减少）的量是恒定的。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/auto-width.vue",
+        "desc": "展示宽度自适应功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/center.vue",
+        "desc": "展示居中布局和事件处理功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/disabled.vue",
+        "desc": "展示禁用状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/empty.vue",
+        "desc": "展示空值处理功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/format.vue",
+        "desc": "展示格式化输入功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/large-number.vue",
+        "desc": "展示大数处理功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/left.vue",
+        "desc": "展示左对齐布局功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/normal.vue",
+        "desc": "展示常规布局和插槽功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/size.vue",
+        "desc": "展示不同尺寸功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/status.vue",
+        "desc": "展示状态提示功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/input-number/step.vue",
+        "desc": "展示步进调整功能"
+      }
+    ]
+  },
+  {
+    "name": "link",
+    "desc": "文字超链接用于跳转一个新页面，如当前项目跳转，友情链接等。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/link/disabled.vue",
+        "desc": "展示禁用状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/link/icon.vue",
+        "desc": "展示图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/link/size.vue",
+        "desc": "展示不同尺寸功能"
+      }
+    ]
+  },
+  {
+    "name": "list",
+    "desc": "列表用一个连续的列来显示多行元素，常用于具有相同构成及内容的模块批量展示，可承载多样化的信息内容，从纯文字到复杂的图文组合。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/list/header-footer.vue",
+        "desc": "展示头部和尾部功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/list/image-text.vue",
+        "desc": "展示图文布局功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/list/loading.vue",
+        "desc": "展示加载状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/list/operation.vue",
+        "desc": "展示操作栏功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/list/scroll.vue",
+        "desc": "展示滚动事件功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/list/virtual-scroll.vue",
+        "desc": "展示虚拟滚动功能"
+      }
+    ]
+  },
+  {
+    "name": "loading",
+    "desc": "在网络较慢或数据较多时，表示数据正在加载的状态。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/attach.vue",
+        "desc": "展示挂载元素功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/delay.vue",
+        "desc": "展示延迟显示功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/directive.vue",
+        "desc": "展示指令用法功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/fullscreen.vue",
+        "desc": "展示全屏加载功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/service.vue",
+        "desc": "展示服务调用功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/text.vue",
+        "desc": "展示自定义文本功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/loading/wrap.vue",
+        "desc": "展示包裹元素功能"
+      }
+    ]
+  },
+  {
+    "name": "menu",
+    "desc": "用于承载网站的架构，并提供跳转的菜单列表。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/closable-side.vue",
+        "desc": "展示可收起菜单功能，支持通过按钮控制展开/收起状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/double.vue",
+        "desc": "展示双菜单布局功能，支持两种主题风格并列展示。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/group-side.vue",
+        "desc": "展示分组功能，包括主导航、组件和更多三个分组。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/head-menu-tile.vue",
+        "desc": "展示头部菜单功能，支持动态生成菜单项和操作区域按钮。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/multi-side.vue",
+        "desc": "展示多级菜单功能，支持嵌套子菜单和不同主题风格。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/popup-side.vue",
+        "desc": "展示弹出式子菜单功能，支持展开/收起事件处理。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/side-menu-width.vue",
+        "desc": "展示自定义菜单宽度功能。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/single-side.vue",
+        "desc": "展示单侧菜单功能，支持不同主题风格。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/menu/single.vue",
+        "desc": "展示单层菜单功能，包括头部菜单和操作区域按钮。"
+      }
+    ]
+  },
+  {
+    "name": "message",
+    "desc": "对用户的操作作出轻量的全局反馈。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/message/close-all.vue",
+        "desc": "展示批量关闭功能，支持同时关闭所有消息。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/close.vue",
+        "desc": "展示关闭按钮功能，支持自定义关闭按钮（文字、函数、插槽）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/loading.vue",
+        "desc": "展示加载状态功能，支持从加载状态切换到成功或失败状态。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/offset.vue",
+        "desc": "展示偏移量功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/on-close.vue",
+        "desc": "展示关闭事件功能，支持监听关闭按钮点击、计时结束等事件。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/placement.vue",
+        "desc": "展示位置控制功能，支持设置消息框在屏幕的不同位置。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/plugin.vue",
+        "desc": "展示插件调用功能，支持通过插件方式调用不同主题的消息。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/message/toggle.vue",
+        "desc": "展示动态控制功能，支持手动控制消息的打开和关闭。"
+      }
+    ]
+  },
+  {
+    "name": "notification",
+    "desc": "轻量级的全局消息提示和确认机制，出现和消失时需要有缓动动画。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/base.vue",
+        "desc": "展示基础功能，包括静态显示和带计时器的动态显示。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/close-all.vue",
+        "desc": "展示批量关闭功能，支持同时关闭所有通知。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/close.vue",
+        "desc": "展示关闭按钮功能，支持自定义关闭按钮（文字、函数、插槽）。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/content.vue",
+        "desc": "展示内容自定义功能，支持通过字符串、函数或插槽定义内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/footer.vue",
+        "desc": "展示底部自定义功能，支持通过函数或插槽定义底部内容。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/offset.vue",
+        "desc": "展示偏移量功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/operation.vue",
+        "desc": "展示操作区功能，支持自定义底部操作按钮和动态控制通知显示。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/placement.vue",
+        "desc": "展示位置控制功能，支持设置消息框在屏幕的不同位置。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/plugin.vue",
+        "desc": "展示插件调用功能，支持通过插件方式调用不同主题的消息。"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/notification/size.vue",
+        "desc": "展示尺寸控制功能，支持设置固定宽度和内容行数限制。"
+      }
+    ]
+  },
+  {
+    "name": "pagination",
+    "desc": "用于模块内切换内容的控件。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/base.vue",
+        "desc": "展示基础功能，包括当前页控制、分页大小控制和事件回调"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/jump.vue",
+        "desc": "展示跳转功能，支持通过输入框快速跳转到指定页"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/mini.vue",
+        "desc": "展示小尺寸模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/more.vue",
+        "desc": "展示页码省略模式功能，支持中间省略和两端省略"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/page-num.vue",
+        "desc": "展示分页大小选择功能，支持自定义分页选项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/pagination-mini.vue",
+        "desc": "展示pagination-mini组件的布局和尺寸配置功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/simple-mini.vue",
+        "desc": "展示简约风格小尺寸模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/simple.vue",
+        "desc": "展示简约风格模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/pagination/total.vue",
+        "desc": "展示总条数自定义功能"
+      }
+    ]
+  },
+  {
+    "name": "popconfirm",
+    "desc": "气泡确认框通常用于不会造成严重后果的二次确认场景，其会在点击元素上弹出浮层进行提示确认。气泡确认框没有蒙层，点击确认框以外的区域即可关闭。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/popconfirm/base.vue",
+        "desc": "展示基础功能，包括默认样式和受控模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popconfirm/button.vue",
+        "desc": "展示自定义按钮功能，包括属性定义和插槽定义"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popconfirm/icon.vue",
+        "desc": "展示自定义图标功能，包括不同主题风格和自定义图标"
+      }
+    ]
+  },
+  {
+    "name": "popup",
+    "desc": "弹出层组件是其他弹窗类组件如气泡确认框实现的基础，当这些组件提供的能力不能满足定制需求时，可以在弹出层组件基础上封装。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/popup/base.vue",
+        "desc": "展示基础功能，包括三种方式自定义浮层内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popup/container.vue",
+        "desc": "展示挂载节点功能，支持通过选择器或函数指定挂载节点"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popup/trigger-element.vue",
+        "desc": "展示自定义触发元素功能，支持四种方式定义触发元素"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popup/trigger.vue",
+        "desc": "展示触发方式功能，支持多种触发方式（悬浮、点击、焦点、右击）"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/popup/visible.vue",
+        "desc": "展示显示控制功能，支持外部控制浮层显示状态"
+      }
+    ]
+  },
+  {
+    "name": "radio",
+    "desc": "单选框代表从一组互斥的选项中仅选择一个选项。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/radio/group.vue",
+        "desc": "展示分组功能，包括选项配置、禁用状态、取消选中和主题风格"
+      }
+    ]
+  },
+  {
+    "name": "range-input",
+    "desc": "用于输入范围文本。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/range-input/popup.vue",
+        "desc": "展示弹出面板功能，支持自定义面板内容"
+      }
+    ]
+  },
+  {
+    "name": "rate",
+    "desc": "用于收纳大量选项的信息录入类组件。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/rate/icon.vue",
+        "desc": "展示自定义图标功能，支持通过插槽自定义评分图标"
+      }
+    ]
+  },
+  {
+    "name": "select",
+    "desc": "用于收纳大量选项的信息录入类组件。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/select/base.vue",
+        "desc": "展示基础功能，包括两种方式定义选项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/collapsed.vue",
+        "desc": "展示折叠功能，支持自定义折叠内容和数量控制"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/creatable.vue",
+        "desc": "展示自定义创建功能，支持用户创建新选项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/custom-options.vue",
+        "desc": "展示自定义选项功能，支持自定义选项内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/custom-selected.vue",
+        "desc": "展示自定义选中项功能，支持自定义选中项内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/disabled.vue",
+        "desc": "展示禁用状态功能，支持单选和多选模式的禁用"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/filterable.vue",
+        "desc": "展示搜索过滤功能，支持默认搜索和自定义过滤方法"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/group.vue",
+        "desc": "展示分组功能，支持自定义分组选项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/label-in-value.vue",
+        "desc": "展示值类型功能，支持返回完整选项对象而非仅值"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/max.vue",
+        "desc": "展示最大选择数量限制功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/multiple.vue",
+        "desc": "展示多选功能，支持全选和折叠选中项"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/noborder.vue",
+        "desc": "展示无边框模式功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/panel.vue",
+        "desc": "展示面板自定义功能，支持自定义顶部和底部内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/popup-props.vue",
+        "desc": "展示弹出框属性配置功能，支持自定义弹出框样式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/prefix.vue",
+        "desc": "展示前缀图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/remote-search.vue",
+        "desc": "展示远程搜索功能，支持异步加载选项数据"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/size.vue",
+        "desc": "展示尺寸设置功"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/status.vue",
+        "desc": "展示状态设置功能，支持禁用和加载状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select/virtual-scroll.vue",
+        "desc": "展示虚拟滚动功能，支持大数据量优化"
+      }
+    ]
+  },
+  {
+    "name": "select-input",
+    "desc": "结合下拉选择与文本输入功能。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/autocomplete.vue",
+        "desc": "展示自动补全功能，支持自定义下拉面板内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/autowidth-multiple.vue",
+        "desc": "展示多选和宽度自适应功能，支持自定义下拉面板内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/autowidth.vue",
+        "desc": "展示宽度自适应功能，支持自定义下拉面板内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/borderless-multiple.vue",
+        "desc": "展示无边框多选功能，支持自定义下拉面板内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/borderless.vue",
+        "desc": "展示无边框模式功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/collapsed-items.vue",
+        "desc": "展示折叠项功能，支持自定义折叠内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/custom-tag.vue",
+        "desc": "展示自定义标签功能，支持单选和多选模式下的标签自定义"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/excess-tags-display-type.vue",
+        "desc": "展示标签溢出处理功能，支持滚动和换行两种显示方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/label-suffix.vue",
+        "desc": "展示前置标签和后缀内容功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/multiple.vue",
+        "desc": "展示多选功能，支持创建新选项和标签溢出处理"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/single.vue",
+        "desc": "展示单选功能，支持输入和清空"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/status.vue",
+        "desc": "展示状态设置功能，包括禁用、只读、成功、警告和错误状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/select-input/width.vue",
+        "desc": "展示宽度控制功能，支持多种宽度设置方式"
+      }
+    ]
+  },
+  {
+    "name": "skeleton",
+    "desc": "当网络较慢时，在页面真实数据加载之前，给用户展示出页面的大致结构。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/skeleton/base.vue",
+        "desc": "展示基础功能，包括加载状态切换"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/skeleton/animation.vue",
+        "desc": "展示动画效果功能，包括渐变和闪烁两种动画"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/skeleton/delay.vue",
+        "desc": "展示延迟显示功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/skeleton/theme.vue",
+        "desc": "展示主题风格功能，包括文本、头像、段落等多种风格"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/skeleton/advance.vue",
+        "desc": "展示高级配置功能，包括自定义行列布局和组合效果"
+      }
+    ]
+  },
+  {
+    "name": "slider",
+    "desc": "滑块（滑动型输入器），是帮助用户在连续或间断的区间内，通过滑动来选择合适数值（一个数值或范围数值）的控件。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/base.vue",
+        "desc": "展示基础功能，包括单滑块和范围滑块模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/disabled.vue",
+        "desc": "展示禁用状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/input-number.vue",
+        "desc": "展示数字输入框功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/input-number-vertical.vue",
+        "desc": "展示垂直布局数字输入框功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/marks.vue",
+        "desc": "展示刻度标记功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/min-and-max.vue",
+        "desc": "展示最小最大值功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/step.vue",
+        "desc": "展示步长功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/slider/vertical-marks.vue",
+        "desc": "展示垂直布局刻度标记功能"
+      }
+    ]
+  },
+  {
+    "name": "space",
+    "desc": "控制组件之间的间距。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/space/separator.vue",
+        "desc": "展示分隔符功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/space/size.vue",
+        "desc": "展示间距大小功能"
+      }
+    ]
+  },
+  {
+    "name": "statistic",
+    "desc": "突出展示某个或某组数字、带描述的统计类数据。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/statistic/animation.vue",
+        "desc": "展示动画效果功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/statistic/combination.vue",
+        "desc": "展示组合功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/statistic/loading.vue",
+        "desc": "展示加载状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/statistic/slot.vue",
+        "desc": "展示插槽功能"
+      }
+    ]
+  },
+  {
+    "name": "steps",
+    "desc": "提示用户进度以及当前的步骤，用于引导用户按照步骤完成任务的导航条。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/steps/extra.vue",
+        "desc": "展示额外内容功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/steps/icon.vue",
+        "desc": "展示图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/steps/no-sequence.vue",
+        "desc": "展示无顺序功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/steps/options.vue",
+        "desc": "展示数据列表功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/steps/sequence.vue",
+        "desc": "展示顺序功能"
+      }
+    ]
+  },
+  {
+    "name": "sticky-tool",
+    "desc": "侧边栏组件用于常驻页面侧边的信息、操作展示。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/sticky-tool/base.vue",
+        "desc": "展示基础功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/sticky-tool/compact.vue",
+        "desc": "展示紧凑型功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/sticky-tool/shape.vue",
+        "desc": "展示形状功能"
+      }
+    ]
+  },
+  {
+    "name": "swiper",
+    "desc": "轮播视图容器。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/swiper/current.vue",
+        "desc": "展示当前项功能"
+      }
+    ]
+  },
+  {
+    "name": "switch",
+    "desc": "用于两个互斥选项，用来打开或关闭选项的选择控件。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/switch/base.vue",
+        "desc": "展示基础功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/switch/describe.vue",
+        "desc": "展示描述功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/switch/size.vue",
+        "desc": "展示尺寸功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/switch/status.vue",
+        "desc": "展示状态功能"
+      }
+    ]
+  },
+  {
+    "name": "table",
+    "desc": "表格常用于展示同类结构下的多种数据，易于组织、对比和分析等，并可对数据进行搜索、筛选、排序等操作。一般包括表头、数据行和表尾三部分。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/table/affix.vue",
+        "desc": "展示表头吸顶、表尾吸底、固定列等功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/async-loading.vue",
+        "desc": "展示异步加载功能，包括加载更多、加载中和自定义加载状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/base.vue",
+        "desc": "展示基础功能，包括尺寸控制、斑马纹、边框、悬浮效果、表头显示等"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/custom-cell.vue",
+        "desc": "展示自定义单元格功能，包括使用插槽和渲染函数自定义单元格内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/custom-col-button.vue",
+        "desc": "展示列配置功能，包括列显示控制、分组列配置和自定义按钮位置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/custom-col.vue",
+        "desc": "展示列配置功能，包括分组列配置、自定义弹窗内容和列宽调整"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/custom-footer.vue",
+        "desc": "展示表尾功能，包括普通表尾、通栏表尾和自定义合并列表尾"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/custom-header.vue",
+        "desc": "展示自定义表头功能，包括使用插槽和渲染函数自定义表头内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/data-sort.vue",
+        "desc": "展示数据排序功能，包括单字段排序和多字段排序"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/drag-col-sort.vue",
+        "desc": "展示列拖拽排序功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/drag-sort-handler.vue",
+        "desc": "展示行拖拽排序功能，通过拖拽手柄实现行顺序调整"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/drag-sort.vue",
+        "desc": "展示行拖拽排序功能，通过拖拽行实现行顺序调整"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/editable-cell.vue",
+        "desc": "展示单元格编辑功能，包括输入框、下拉选择、日期选择等多种编辑方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/editable-row.vue",
+        "desc": "展示行编辑功能，包括整行编辑、保存和取消操作"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/expandable.vue",
+        "desc": "展示可展开行功能，包括自定义展开图标、点击行展开/收起等特性"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/filter-controlled.vue",
+        "desc": "展示过滤功能，包括单选、多选、输入框和自定义组件等多种过滤方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/fixed-column.vue",
+        "desc": "展示固定列功能，包括左侧固定列、右侧固定列以及表格布局设置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/fixed-header-col.vue",
+        "desc": "展示固定表头和列功能，包括冻结首尾行和固定列"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/fixed-header.vue",
+        "desc": "展示固定表头功能，包括冻结表头和表尾行"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/highlight.vue",
+        "desc": "展示高亮行功能，包括单行高亮和多行高亮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/lazy.vue",
+        "desc": "展示懒加载功能，包括滚动懒加载和缓冲数据"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/pagination.vue",
+        "desc": "展示分页功能，包括跨分页选中和本地分页两种方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/merge-cells.vue",
+        "desc": "展示单元格合并功能，包括行合并和列合并"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/multiple-sort.vue",
+        "desc": "展示多字段排序功能，支持多个字段同时排序"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/pagination-ajax.vue",
+        "desc": "展示异步分页功能，通过AJAX请求获取分页数据"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/select-multiple.vue",
+        "desc": "展示多选功能，包括行高亮和点击行选中等特性"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/select-single.vue",
+        "desc": "展示单选功能，包括行高亮和点击行选中等特性"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/select-without-handler.vue",
+        "desc": "展示无选择列功能，通过点击行实现单选或多选"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/show-columns.vue",
+        "desc": "展示列显示控制功能，支持动态显示/隐藏列"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/single-sort.vue",
+        "desc": "展示单字段排序功能，包括升序和降序排列"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/tree.vue",
+        "desc": "展示树形结构功能，包括展开/收起节点、添加/删除节点、懒加载子节点等特性"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/table/virtual-scroll.vue",
+        "desc": "展示虚拟滚动功能，支持大数据量下的流畅滚动和快速定位到指定元素"
+      }
+    ]
+  },
+  {
+    "name": "tabs",
+    "desc": "用于承载同一层级下不同页面或类别的组件，方便用户在同一个页面框架下进行快速切换。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/ban.vue",
+        "desc": "展示禁用选项卡功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/base.vue",
+        "desc": "展示基础功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/combination.vue",
+        "desc": "展示组合功能，包括主题风格和滚动位置设置"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/custom.vue",
+        "desc": "展示自定义功能，包括可添加和可删除选项卡"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/drag-sort.vue",
+        "desc": "展示拖拽排序功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/icon.vue",
+        "desc": "展示图标功能，包括在选项卡标签中使用图标"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/lazy-load.vue",
+        "desc": "展示懒加载功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/operation.vue",
+        "desc": "展示操作功能，包括动态添加和删除选项卡"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/position.vue",
+        "desc": "展示位置功能，包括选项卡栏在不同位置的显示"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/size.vue",
+        "desc": "展示尺寸功能，包括不同尺寸的选项卡"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tabs/theme.vue",
+        "desc": "展示主题功能，包括常规型和卡片型两种主题风格"
+      }
+    ]
+  },
+  {
+    "name": "tag",
+    "desc": "定义：标签常用于标记、分类和选择。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tag/base.vue",
+        "desc": "展示基础功能，包括不同主题和变体的标签样式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag/check-tag-group.vue",
+        "desc": "展示复选框标签组功能，支持多选和自定义内容"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag/delete.vue",
+        "desc": "展示可删除标签功能，支持动态添加和删除标签"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag/icon.vue",
+        "desc": "展示图标功能，支持通过函数或插槽自定义图标"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag/selectable.vue",
+        "desc": "展示可选标签功能，支持选中和未选状态切换"
+      }
+    ]
+  },
+  {
+    "name": "tag-input",
+    "desc": "用于输入文本标签。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/auto-width.vue",
+        "desc": "展示宽度自适应功能，支持动态调整输入框宽度"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/base.vue",
+        "desc": "展示基础功能，包括标签输入、清空和事件处理"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/custom-tag.vue",
+        "desc": "展示自定义标签功能，支持通过插槽自定义标签内容和显示方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/draggable.vue",
+        "desc": "展示拖拽排序功能，支持通过拖拽调整标签顺序"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/excess.vue",
+        "desc": "展示标签溢出处理功能，支持滚动和换行两种显示方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/max.vue",
+        "desc": "展示最大标签数量限制功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/size.vue",
+        "desc": "展示尺寸控制功能，支持小、中、大三种尺寸"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/status.vue",
+        "desc": "展示状态控制功能，包括禁用、只读、成功、告警和错误状态"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tag-input/theme.vue",
+        "desc": "展示主题风格功能，支持多种主题颜色设置"
+      }
+    ]
+  },
+  {
+    "name": "textarea",
+    "desc": "用于承载用户多行信息录入的组件，常用于描述信息、反馈表单中意见等需要一段相当长文本的场景。可以设置最大文案长度。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/textarea/base.vue",
+        "desc": "展示基础功能，包括输入框绑定、占位符设置和高度自适应"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/textarea/events.vue",
+        "desc": "展示事件处理功能，包括键盘和焦点相关事件"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/textarea/maxlength.vue",
+        "desc": "展示输入长度限制功能，包括字符数和字节数限制"
+      }
+    ]
+  },
+  {
+    "name": "time-picker",
+    "desc": "用于选择某一具体时间点或某一时间段。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/base.vue",
+        "desc": "展示基础功能，包括时间选择和绑定"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/clearable.vue",
+        "desc": "展示清空功能，支持显示或隐藏清空按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/disabled.vue",
+        "desc": "展示禁用功能，包括全局禁用和特定时间禁用"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/format.vue",
+        "desc": "展示格式化功能，支持自定义时间显示格式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/hide-clear-button.vue",
+        "desc": "展示清空按钮控制功能，支持显示或隐藏清空按钮"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/hms.vue",
+        "desc": "展示事件处理功能，包括时间变化、打开、关闭和选择事件"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/keyboard.vue",
+        "desc": "展示键盘输入功能，支持允许或禁止手动输入时间"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/panel.vue",
+        "desc": "展示面板功能，支持单独使用或与其他组件组合使用"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/presets.vue",
+        "desc": "展示预设时间功能，支持快速选择预设时间"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/range.vue",
+        "desc": "展示时间范围选择功能，支持选择开始和结束时间"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/step.vue",
+        "desc": "展示步进功能，支持自定义时间选择步长"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/twelve-hour-meridian.vue",
+        "desc": "展示12小时制功能，支持显示上午/下午标识"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/time-picker/twelve-hour.vue",
+        "desc": "展示12小时制功能，支持显示上午/下午标识"
+      }
+    ]
+  },
+  {
+    "name": "timeline",
+    "desc": "用于时间轴展示",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/base.vue",
+        "desc": "展示基础功能，包括垂直和水平两种时间轴方向"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/customContent.vue",
+        "desc": "展示自定义内容功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/customDot.vue",
+        "desc": "展示自定义标记点功能，支持图标和样式自定义"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/layout.vue",
+        "desc": "展示布局和对齐功能，包括方向、对齐方式和标签对齐方式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/loading.vue",
+        "desc": "展示加载状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/reverse.vue",
+        "desc": "展示倒序功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/timeline/theme.vue",
+        "desc": "展示主题风格功能"
+      }
+    ]
+  },
+  {
+    "name": "tooltip",
+    "desc": "用于文字提示的气泡框。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tooltip/duration.vue",
+        "desc": "展示定时消失功能"
+      }
+    ]
+  },
+  {
+    "name": "transfer",
+    "desc": "以直观的方式在两栏中移动选项元素，是对选项进行单个或批量移动从而完成挑选的数据容器。左栏是“源”，右边是“目标”。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/base.vue",
+        "desc": "展示基础功能，包括数据绑定和选中项管理"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/checked.vue",
+        "desc": "展示选中项控制功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/custom-render.vue",
+        "desc": "展示自定义渲染功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/custom.vue",
+        "desc": "展示自定义标题和底部功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/disabled.vue",
+        "desc": "展示禁用状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/empty.vue",
+        "desc": "展示空状态自定义功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/pagination.vue",
+        "desc": "展示分页功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/search.vue",
+        "desc": "展示搜索功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/target-draggable.vue",
+        "desc": "展示目标项拖拽排序功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/target-value.vue",
+        "desc": "展示目标项值绑定功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/transfer/tree.vue",
+        "desc": "展示树形数据功能"
+      }
+    ]
+  },
+  {
+    "name": "tree",
+    "desc": "用于承载有父子关系的结构化内容，提供内容层级的展示。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/activable.vue",
+        "desc": "展示节点高亮功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/base.vue",
+        "desc": "展示基础功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/checkable.vue",
+        "desc": "展示节点选择功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/controlled.vue",
+        "desc": "展示受控状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/debug-data.vue",
+        "desc": "展示数据切换功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/debug-filter.vue",
+        "desc": "展示节点过滤功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/debug-performance.vue",
+        "desc": "展示性能测试功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/debug-vscroll.vue",
+        "desc": "展示虚拟滚动功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/disabled.vue",
+        "desc": "展示禁用状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/draggable.vue",
+        "desc": "展示拖拽功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/empty.vue",
+        "desc": "展示空状态功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/expand-all.vue",
+        "desc": "展示全部展开功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/expand-level.vue",
+        "desc": "展示展开层级控制功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/expand-mutex.vue",
+        "desc": "展示互斥展开功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/filter.vue",
+        "desc": "展示节点过滤功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/icon.vue",
+        "desc": "展示自定义图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/label.vue",
+        "desc": "展示自定义标签功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/lazy.vue",
+        "desc": "展示懒加载功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/line.vue",
+        "desc": "展示连线样式功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/load.vue",
+        "desc": "展示动态加载功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/operations.vue",
+        "desc": "展示各种操作方法"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/transition.vue",
+        "desc": "展示过渡动画功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/vscroll-lazy.vue",
+        "desc": "展示懒加载虚拟滚动功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree/vscroll.vue",
+        "desc": "展示虚拟滚动功能"
+      }
+    ]
+  },
+  {
+    "name": "tree-select",
+    "desc": "类似 Select 的信息录入控件，适用于选择树形的数据结构。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/arrowicon.vue",
+        "desc": "展示自定义箭头图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/base.vue",
+        "desc": "展示基础功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/collapsed.vue",
+        "desc": "展示折叠项功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/filterable.vue",
+        "desc": "展示搜索过滤功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/lazy.vue",
+        "desc": "展示懒加载功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/multiple.vue",
+        "desc": "展示多选功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/prefix.vue",
+        "desc": "展示前缀图标功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/prefixsuffix.vue",
+        "desc": "展示前缀和后缀自定义功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/props.vue",
+        "desc": "展示属性配置功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/valuedisplay.vue",
+        "desc": "展示值显示自定义功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/tree-select/valuetype.vue",
+        "desc": "展示值类型功能"
+      }
+    ]
+  },
+  {
+    "name": "upload",
+    "desc": "上传组件允许用户传输文件或提交自己的内容。",
+    "example": [
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/base.vue",
+        "desc": "展示基础功能，包括单文件/多文件上传、自动上传、手动上传"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/custom-drag.vue",
+        "desc": "展示自定义拖拽上传功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/draggable.vue",
+        "desc": "展示拖拽上传功能，支持文件和图片两种模式"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/file-flow-list.vue",
+        "desc": "展示文件流式列表上传功能，支持批量上传"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/image.vue",
+        "desc": "展示图片上传功能，支持单张和多张图片上传"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/img-flow-list.vue",
+        "desc": "展示图片流式列表上传功能，支持批量上传"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/listType.vue",
+        "desc": "展示文件列表类型上传功能，支持文件选择和预览"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/request-method.vue",
+        "desc": "展示自定义上传方法功能，支持成功和失败状态演示"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/single-custom.vue",
+        "desc": "展示自定义单文件上传功能，支持文件大小限制"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/single-input.vue",
+        "desc": "展示单文件输入框上传功能"
+      },
+      {
+        "path": "EXTRACTED_DATA_DIR/upload/table.vue",
+        "desc": "展示表格形式上传功能，支持文件列表展示和操作"
+      }
+    ]
+  }
+]
