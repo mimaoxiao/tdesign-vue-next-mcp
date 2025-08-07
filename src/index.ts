@@ -4,7 +4,7 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import registerTools from './tools/index';
 
 function main() {
-  // 创建 MCP 服务器
+  // 创建 MCP 服务器 
   const server = new McpServer(
     {
       name: 'TDesign Components MCP',
